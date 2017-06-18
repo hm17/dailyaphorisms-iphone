@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Law-ae-ZtC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,40 +10,40 @@
     </dependencies>
     <scenes>
         <!--Daily Aphorisms Controller-->
-        <scene sceneID="TQc-r3-e1p">
+        <scene sceneID="CSB-r2-JEy">
             <objects>
-                <viewController id="Law-ae-ZtC" customClass="DailyAphorismsController" customModule="dailyaphorisms_iphone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0l8-Tr-c0h" customClass="DailyAphorismsController" customModule="dailyaphorisms_iphone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0he-R7-e8I"/>
-                        <viewControllerLayoutGuide type="bottom" id="My2-zX-wU2"/>
+                        <viewControllerLayoutGuide type="top" id="hpY-g4-Saw"/>
+                        <viewControllerLayoutGuide type="bottom" id="KcG-Lw-tpm"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ShF-P7-5sp">
+                    <view key="view" contentMode="scaleToFill" id="wmf-us-ObL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="When you can't find the words to say..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SyW-sV-wWd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="When you can't find the words to say..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAb-GS-8eo">
                                 <rect key="frame" x="0.0" y="44" width="375" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="20"/>
-                                <color key="textColor" red="0.90372004533678751" green="0.90372004533678751" blue="0.90372004533678751" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.90372004530000005" green="0.90372004530000005" blue="0.90372004530000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gas-Du-iQy">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5g-oP-plA">
                                 <rect key="frame" x="112" y="572" width="150" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="button-next">
-                                    <color key="titleColor" red="0.020280116580310925" green="0.020280116580310925" blue="0.020280116580310925" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" red="0.02028011658" green="0.02028011658" blue="0.02028011658" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.79932399610000004" green="0.41432866010000002" blue="0.55274287109999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="dailyAphorismLabel" destination="SyW-sV-wWd" id="Y2R-vE-0ld"/>
-                        <outlet property="nextButton" destination="gas-Du-iQy" id="gPO-V6-V0k"/>
+                        <outlet property="dailyAphorismLabel" destination="NAb-GS-8eo" id="m4i-IX-agx"/>
+                        <outlet property="nextButton" destination="P5g-oP-plA" id="aLV-aG-sNf"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LCI-TK-0tj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="afp-jC-P29" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="277.60000000000002" y="267.61619190404798"/>
         </scene>

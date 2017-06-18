@@ -11,6 +11,7 @@
 		EB2168281EF07152002B3DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2168261EF07152002B3DA0 /* Main.storyboard */; };
 		EB21682A1EF07152002B3DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2168291EF07152002B3DA0 /* Assets.xcassets */; };
 		EB21682D1EF07152002B3DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB21682B1EF07152002B3DA0 /* LaunchScreen.storyboard */; };
+		EBD351111EF6293000B44FA4 /* DailyAphorismsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD351101EF6293000B44FA4 /* DailyAphorismsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		EB2168291EF07152002B3DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB21682C1EF07152002B3DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB21682E1EF07152002B3DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD351101EF6293000B44FA4 /* DailyAphorismsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyAphorismsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				EB2168291EF07152002B3DA0 /* Assets.xcassets */,
 				EB21682B1EF07152002B3DA0 /* LaunchScreen.storyboard */,
 				EB21682E1EF07152002B3DA0 /* Info.plist */,
+				EBD351101EF6293000B44FA4 /* DailyAphorismsController.swift */,
 			);
 			path = "dailyaphorisms-iphone";
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD351111EF6293000B44FA4 /* DailyAphorismsController.swift in Sources */,
 				EB2168231EF07152002B3DA0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +299,7 @@
 				EB2168331EF07152002B3DA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
