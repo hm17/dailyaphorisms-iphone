@@ -34,6 +34,9 @@
                                 <state key="normal" image="button-next">
                                     <color key="titleColor" red="0.020280116580310925" green="0.020280116580310925" blue="0.020280116580310925" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="Law-ae-ZtC" eventType="touchUpInside" id="O8c-pU-otm"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.79932399610000004" green="0.41432866010000002" blue="0.55274287109999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

@@ -18,8 +18,11 @@ class DailyAphorismsController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        dailyAphorismLabel.text = "This is a quote";
+        dailyAphorismLabel.text = "This is a quote"
     }
 
+    @IBAction func nextButtonPressed(_ sender: Any) {
+        print("next quote!")
+    }
     
 }
